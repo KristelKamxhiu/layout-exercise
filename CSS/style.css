@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(15, 105, 93);
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    line-height: 2.6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 200px;
+    padding-left: 100px;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.section{
+    flex: 1;
+}
+
+
+.section a{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+#button{
+    background-color: white;
+    color: rgb(15, 105, 93);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 10px;
+    width: 90%;
+}
+
+.box{
+    background-color: rgb(15, 105, 93);
+    border: none;
+    outline: none;
+    color: white;
+    padding-top: 20px;
+}
+
+hr{
+    border: 0;
+    width: 90%;
+    height: 2px;
+    background-color: white;
+}
+
+form input, form button{
+    display: block;
+    margin: 1px ;
+}
+
